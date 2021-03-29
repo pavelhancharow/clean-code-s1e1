@@ -31,7 +31,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-wrapper {
   display: flex;
@@ -121,7 +121,7 @@ input,button{
   width: 226px;
 }
 .todo-item > .text {
-  width: 226px
+  width: 226px;
 }
 .delete:hover {
   color: #cf2323;
@@ -137,18 +137,18 @@ input,button{
 
 /* Completed */
 #completed .label-task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo-item .text {
-  display: none
+  display: none;
 }
 
 .edit-mode .text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .label-task {
